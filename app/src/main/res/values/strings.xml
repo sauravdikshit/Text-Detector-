@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TextDetector</string>
+    <string name="search_element">search_element</string>
+    <string name="text">TEXT</string>
+    <string name="detector">Detector</string>
+    <string name="todo">TODO</string>
+    <string name="text_dectector"><b>Text Detector</b></string>
+    <string name="slogon_line"><i>You can convert images to text. Enjoy 😍</i></string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "615923310473",
+    "project_id": "textdetector-86a70",
+    "storage_bucket": "textdetector-86a70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615923310473:android:55b7cce9d69026903a4b58",
+        "android_client_info": {
+          "package_name": "com.weirdinventor.textdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615923310473-uscef005ehcutllri055h0rlpbnsmjed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr-BJeZ9eRTXbuclpzNmuFznReslr96a4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615923310473-uscef005ehcutllri055h0rlpbnsmjed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/dashboard">
+
+    <activity
+        android:id="@+id/dashboard"
+        android:name="com.weirdinventor.textdetector.Dashboard"
+        android:label="dashboard"
+        tools:layout="@layout/dashboard" />
+    <activity
+        android:id="@+id/splashscreen"
+        android:name="com.weirdinventor.textdetector.Splashscreen"
+        android:label="activity_splashscreen"
+        tools:layout="@layout/activity_splashscreen" >
+        <action
+            android:id="@+id/splashscreen3"
+            app:destination="@id/dashboard" />
+    </activity>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.weirdinventor.textdetector.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/gallery"
+        android:name="com.weirdinventor.textdetector.Gallery"
+        android:label="activity_gallery"
+        tools:layout="@layout/activity_gallery" />
+    <activity
+        android:id="@+id/texttospeech"
+        android:name="com.weirdinventor.textdetector.Texttospeech"
+        android:label="activity_texttospeech"
+        tools:layout="@layout/activity_texttospeech" />
+</navigation>
